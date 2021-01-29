@@ -1,0 +1,24 @@
+#showcase .showcase-container,
+#home-articles .article-container {
+  grid-template-columns: 1fr;
+}
+
+#main-footer .footer-container {
+  grid-template-columns: 1fr;
+}
+#main-footer .footer-container > *:last-child {
+  grid-column: 1;
+}
+
+#main-footer .footer-container > *:first-child,
+#main-footer .footer-container > *:nth-child(2) {
+  border-bottom: rgb(159, 159, 159) dotted 1px;
+  padding-bottom: 0.5rem;
+}
+#main-footer .footer-container input[type="email"],
+#main-footer .footer-container input[type="submit"] {
+  width: 100%;
+}
+.l-header {
+  font-size: 2rem;
+}
